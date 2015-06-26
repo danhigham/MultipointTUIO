@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTMultiMouse", "MTMultiMouse.csproj", "{D71F632C-2C5A-4AD4-BCFD-20007B4797AF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs04
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MTMultiMouse.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D71F632C-2C5A-4AD4-BCFD-20007B4797AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71F632C-2C5A-4AD4-BCFD-20007B4797AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71F632C-2C5A-4AD4-BCFD-20007B4797AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71F632C-2C5A-4AD4-BCFD-20007B4797AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

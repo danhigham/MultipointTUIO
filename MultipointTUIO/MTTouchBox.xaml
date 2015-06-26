@@ -1,0 +1,8 @@
+﻿<UserControl x:Class="MTMultiMouse.MTTouchBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" BorderBrush="Red" BorderThickness="2" Background="White" Opacity="0">
+    <Canvas>
+        <TextBlock x:Name="ConnectedCount" Width="20" Height="20" Background="red"
+         Canvas.Left="0" Canvas.Top="0" Text="Connected Clients : 0" Visibility="Hidden"/>
+    </Canvas>
+</UserControl>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="MTMultiMouse.TargetWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mpns="clr-namespace:MTMultiMouse"
+        xmlns:mp="clr-namespace:Microsoft.Multipoint.Sdk.Controls;assembly=Microsoft.Multipoint.Sdk.Controls"
+        
+    Title="Multi-point TUIO" Top="0" Left="0" AllowsTransparency="True" WindowStyle="None" Loaded="Window_Loaded" WindowState="Maximized" Background="White" Opacity="0.1">
+    <Canvas Margin="0,0,0,0" Height="Auto" Width="Auto" Name="MainCanvas" VerticalAlignment="Top" Opacity="1">
+
+        <mpns:MTTouchBox Height="100" Width="100" x:Name="MTContainer" Canvas.Top="20" Canvas.Left="20" Opacity="1" />
+
+
+    </Canvas>
+</Window>
